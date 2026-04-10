@@ -11,6 +11,7 @@ body {
     color: #c5d1b3; /* muted army green text */
     font-family: "Courier New", monospace;
     line-height: 1.6;
+ margin: 0;
 }
 
 /* Header */
@@ -101,3 +102,5 @@ footer {
  display: block; 
  margin: auto
 }
+p { margin: 1em 0;
+  }
