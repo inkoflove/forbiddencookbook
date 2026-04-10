@@ -19,6 +19,7 @@ header {
     padding: 20px;
     text-align: center;
     border-bottom: 2px solid #4b5320; /* olive drab */
+    margin: 0;
 }
 
 header h1 {
@@ -82,6 +83,7 @@ footer {
     padding: 15px;
     border-top: 2px solid #4b5320;
     font-size: 0.9rem;
+     margin: 0;
 }
 
 /* Utility classes */
