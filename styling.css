@@ -102,5 +102,10 @@ footer {
  display: block; 
  margin: auto
 }
-p { margin: 1em 0;
+p { 
+ margin: 1em 0;
   }
+header h1 { 
+ margin: 0
+}
+ 
