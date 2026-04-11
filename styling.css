@@ -100,7 +100,7 @@ footer {
   width: 100%;
   height: auto;
  display: block; 
- margin: auto
+ margin: auto;
 }
 p { 
  margin: 1em 0;
@@ -109,8 +109,9 @@ header h1 {
  margin: 0
 }
 .pagination {
- display: block;
- margin: auto;
- color: red
+ text-align: center;
+ text-decoration: none;
+ padding: 8px 15px;
+ color: red;
 }
  
