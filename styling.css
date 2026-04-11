@@ -109,9 +109,11 @@ header h1 {
  margin: 0
 }
 .pagination {
- text-align: center;
  text-decoration: none;
  padding: 8px 15px;
  color: red;
+}
+div {
+ text-align: center;
 }
  
