@@ -108,4 +108,9 @@ p {
 header h1 { 
  margin: 0
 }
+.pagination {
+ display: block;
+ margin: auto;
+ color: red
+}
  
