@@ -12,6 +12,7 @@ body {
     font-family: "Courier New", monospace;
     line-height: 1.6;
  margin: 0;
+ overflow-x: hidden;
 }
 
 /* Header */
@@ -122,5 +123,7 @@ div {
   height: auto
   
 }
-h2 {text-align: centre}
+h2 {
+ text-align: center;
+   }
  
