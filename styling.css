@@ -11,7 +11,7 @@ body {
     color: #c5d1b3; /* muted army green text */
     font-family: "Courier New", monospace;
     line-height: 1.6;
- margin: 0;
+ margin: 0 auto;
  overflow-x: hidden;
 }
 
@@ -21,7 +21,7 @@ header {
     padding: 20px;
     text-align: center;
     border-bottom: 2px solid #4b5320; /* olive drab */
-    margin: 0;
+    margin: 0 auto;
 }
 
 header h1 {
@@ -85,7 +85,7 @@ footer {
     padding: 15px;
     border-top: 2px solid #4b5320;
     font-size: 0.9rem;
-     margin: 0;
+     margin: 0 auto;
 }
 
 /* Utility classes */
@@ -119,8 +119,9 @@ div {
 }
 .img { display: block;
   margin: auto;
-  max-width: 100%;
-  height: auto
+  max-width: 85%;
+  height: auto;
+      width: 85%
   
 }
 h2 {
