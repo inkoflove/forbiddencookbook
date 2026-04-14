@@ -118,10 +118,11 @@ div {
  text-align: center;
 }
 .img { display: block;
-  margin: auto;
+  margin: 1em auto;
   max-width: 100%;
   height: auto;
       width: 100%
+      
   
 }
 h2 {
