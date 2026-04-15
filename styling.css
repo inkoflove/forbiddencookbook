@@ -11,7 +11,7 @@ body {
     color: #c5d1b3; /* muted army green text */
     font-family: "Courier New", monospace;
     line-height: 1.6;
- margin: 0 auto;
+ margin: 0 0;
  overflow-x: hidden;
 }
 
