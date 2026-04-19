@@ -21,7 +21,7 @@ const pages = [
 
 function searchSite() {
   const input = document.getElementsByClassName("searchInput").value.toLowerCase();
-  const results = document.getElementsByName("searchResults");
+  const results = document.getElementsByClassName("searchResults");
 
   results.innerHTML = "";
 
