@@ -156,7 +156,6 @@ h2 {
 .toc-box a {
   text-decoration: none; /* removes underline */
   color: #c5d1b3; 
-  font-weight: bold;
   transition: 0.3s;
 }
 
@@ -212,6 +211,8 @@ span {
        display: block;
       font-weight: bold;
       text-align: center;
+      font-size: 19px;
+      font-family: press start 2P;
 }
 a {
      text-decoration: none;
