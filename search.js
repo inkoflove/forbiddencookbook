@@ -50,4 +50,4 @@ function searchSite() {
     results.appendChild(li);
   }
 }
-alert( "JS is connected");
+
