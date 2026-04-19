@@ -204,3 +204,7 @@ h2 {
 #searchResults a:hover {
   color: #ff4081;
    }
+#results {
+  text-align: center;
+  margin: 20px 0;
+   }
