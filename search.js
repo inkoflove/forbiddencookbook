@@ -18,14 +18,15 @@ const pages = [
   { name: "Dry Ice Bomb", url: "page2.html#16" },
   { name: "Tear Gas Grenade", url: "page2.html#17" }
 ];
-
 function searchSite() {
-  const input = document.getElementsByClassName("searchInput").value.toLowerCase();
-  const results = document.getElementsByClassName("searchResults");
+  const inputEl = document.getElementsByClassName("searchInput")[0];
+  const results = document.getElementsByClassName("searchResults")[0];
+
+  const input = inputEl.value.toLowerCase();
 
   results.innerHTML = "";
 
-  if (input.trim() === "") return;
+  if (input === "") return;
 
   let matchCount = 0;
 
@@ -43,11 +44,9 @@ function searchSite() {
     }
   });
 
-  // optional: show "no results"
   if (matchCount === 0) {
     const li = document.createElement("li");
     li.textContent = "No results found";
     results.appendChild(li);
   }
 }
-
