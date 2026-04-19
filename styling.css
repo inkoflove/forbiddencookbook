@@ -155,7 +155,7 @@ h2 {
 
 .toc-box a {
   text-decoration: none; /* removes underline */
-  color: #c5d1b3; 
+  color: lavender; 
   transition: 0.3s;
 }
 
@@ -212,7 +212,8 @@ span {
       font-weight: bold;
       text-align: center;
       font-size: 19px;
-      font-family: 'Press+Start+2P';
+      font-family: 'Press Start 2P';
+      color: lavender;
 }
 a {
      text-decoration: none;
