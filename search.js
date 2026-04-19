@@ -20,8 +20,8 @@ const pages = [
 ];
 
 function searchSite() {
-  const input = document.getElementById("searchInput").value.toLowerCase();
-  const results = document.getElementById("searchResults");
+  const input = document.getElementsByClassName("searchInput").value.toLowerCase();
+  const results = document.getElementsByName("searchResults");
 
   results.innerHTML = "";
 
