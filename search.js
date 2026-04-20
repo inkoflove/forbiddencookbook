@@ -16,7 +16,8 @@ const pages = [
   { name: "Handmade Grenade", url: "page2.html#14" },
   { name: "Wired RC Igniter", url: "page2.html#15" },
   { name: "Dry Ice Bomb", url: "page2.html#16" },
-  { name: "Tear Gas Grenade", url: "page2.html#17" }
+  { name: "Tear Gas Grenade", url: "page2.html#17" },
+  { name: "Homemade SMG", url:"page2.html#18 }
 ];
 function searchSite() {
   const inputEl = document.getElementsByClassName("searchInput")[0];
