@@ -27,6 +27,7 @@ header {
 header h1 {
     letter-spacing: 3px;
     text-transform: uppercase;
+    font-family: 'Press Start 2P'
 }
 
 /* Navigation */
@@ -142,7 +143,9 @@ h2 {
 
 .toc-box h2 {
   color: lavender;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .toc-box ul {
@@ -152,6 +155,7 @@ h2 {
 
 .toc-box li {
   margin: 8px 0;
+  color: lavender;
 }
 
 .toc-box a {
@@ -212,9 +216,12 @@ span {
        display: block;
       font-weight: bold;
       text-align: center;
-      font-size: 1.3em;
+      font-size: 1.2em;
       font-family: 'Press Start 2P';
       color: lavender;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+  
 }
 a {
      text-decoration: none;
